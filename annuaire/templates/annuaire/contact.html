@@ -1,0 +1,21 @@
+{% include "accueil/navbar.html" %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fiche personnelle</title>
+  </head>
+  <body>
+    <detailparticulier>
+      <h1>{{contact.nom}},{{contact.prenom}}</h1>
+      <p>Numéro de téléphone : {{contact.telephone}}</p>
+    </detailparticulier>
+    {% if contact.entreprise == 1 %}
+    <a href="/annuaire/entreprise"> Retourner sur l'annuaire </a>
+    {% else %}
+    <a href="/annuaire/particulier"> Retourner sur l'annuaire </a>
+    {% endif %}
+  </body>
+</html>

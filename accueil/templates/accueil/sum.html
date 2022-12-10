@@ -1,0 +1,18 @@
+{% include "accueil/navbar.html" %} {% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="{% static 'style.css' %}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sum</title>
+  </head>
+  <body>
+    <div class="container_sum">
+      {% if number_1 or number_2 %} {{number_1}} + {{number_2}} = {{total}}
+      {%else%} {{erreur}}{% endif %}
+    </div>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+[
+  {
+    "model": "annuaire.contact",
+    "fields": {
+      "nom": "Cassidy",
+      "prenom": "Hammond",
+      "telephone": "03 94 96 50 97"
+    }
+  },
+  {
+    "model": "annuaire.contact",
+    "fields": {
+      "nom": "Charde",
+      "prenom": "Hyde",
+      "telephone": "03 44 84 02 60"
+    }
+  },
+  {
+    "model": "annuaire.contact",
+    "fields": {
+      "nom": "Dorian",
+      "prenom": "Bailey",
+      "telephone": "03 78 24 49 97"
+    }
+  },
+  {
+    "model": "annuaire.contact",
+    "fields": {
+      "nom": "Vivien",
+      "prenom": "Duffy",
+      "telephone": "03 26 81 80 44"
+    }
+  },
+  {
+    "model": "annuaire.contact",
+    "fields": {
+      "nom": "Ivory",
+      "prenom": "Colon",
+      "telephone": "03 85 87 65 55"
+    }
+  },
+  {
+    "model": "annuaire.contact",
+    "fields": {
+      "nom": "Mollis Lectus Pede Foundation",
+      "prenom": "",
+      "telephone": "07 78 07 96 07",
+      "entreprise": 1
+    }
+  },
+  {
+    "model": "annuaire.contact",
+    "fields": {
+      "nom": "Orci LLC",
+      "prenom": "",
+      "telephone": "03 47 72 76 30",
+      "entreprise": 1
+    }
+  },
+  {
+    "model": "annuaire.contact",
+    "fields": {
+      "nom": "Montes Nascetur Ridiculus Ltd",
+      "prenom": "",
+      "telephone": "05 75 63 52 48",
+      "entreprise": 1
+    }
+  },
+  {
+    "model": "annuaire.contact",
+    "fields": {
+      "nom": "Volutpat Nulla Consulting",
+      "prenom": "",
+      "telephone": "09 18 47 42 35",
+      "entreprise": 1
+    }
+  },
+  {
+    "model": "annuaire.contact",
+    "fields": {
+      "nom": "Vitae Company",
+      "prenom": "",
+      "telephone": "04 28 63 52 29",
+      "entreprise": 1
+    }
+  }
+]
